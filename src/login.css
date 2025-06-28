@@ -1,0 +1,73 @@
+/* src/login.css */
+.top{
+  height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Prevents scrolling */
+    position: fixed; /* Fixes the element in place */
+    top: 0;
+    left: 0;
+}
+.login-page {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(138deg, #2c3e50 50%, #4ca1af 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+  
+  .login-container {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .h2-log {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  .input-log {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .log-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    margin-top: 16px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .log-btn:hover {
+    background-color: #4ca1af;
+    transition: 0.5s;
+  }
+  .p-log {
+    font-size: large;
+    color: white;
+  }
+.sign-up-link{
+   color: black;
+   font-weight: 900;
+}
+.sign-up-link:hover{
+  color: goldenrod;
+  transition: 0.5s;
+}
+

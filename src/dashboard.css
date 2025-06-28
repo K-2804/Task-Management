@@ -1,0 +1,222 @@
+/* Gradient background */
+.body {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Prevents scrolling */
+    position: fixed; /* Fixes the element in place */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Main container */
+.dashboard-container {
+    width: 150%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header with title and logout button */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space between title & logout button */
+    align-items: center; /* Align items in the center */
+    padding: 10px;
+    top: -90px;
+    position: fixed;
+}
+
+/* Title */
+.title {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin: 0;
+    line-height: 6;
+
+}
+.logout-container{
+    position: absolute;
+    right: -370px;
+    top: 143px;
+}
+
+/* Logout button */
+.logout-btn {
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+
+}
+.logout-btn:hover{
+    background-color: #cc0000;
+}
+
+/* Task box container */
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    gap: 65px;
+}
+
+/* Task boxes */
+.task-box {
+    width: 50%;
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Centering headings */
+.task-box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Input and button */
+.task-box input {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    align-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-btn{
+    width: 20%;
+    padding: 10px 2px;
+    background: black;
+    color:#4ca1af;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 67.6%;
+}
+.add-btn:hover{
+    background-color: #4ca1af;
+    color: white;
+    transition: 0.3s;
+}
+.add-cmpt1{
+    background: rgba(255, 255, 255, 0.866);
+    color: rgb(80, 79, 79);
+    border: none;
+    margin-left: 60%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-cmpt2{
+    background: rgba(255, 255, 255, 0.866);
+    border: none;
+    padding: 5px;
+    margin-right: 2%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-cmpt1:hover{
+    background-color: rgb(31, 208, 52);
+    transition: 0.5s;
+    color: white;
+}
+.add-cmpt2:hover{
+    background-color: rgba(234, 57, 57, 0.734);
+    transition: 0.5s;
+    color: white;
+}
+/* Task lists */
+.task-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-box li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* No-task message */
+.no-task {
+    text-align: center;
+    font-style: italic;
+    color: #ddd;
+}
+.h3-dsh{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom:3%;
+}
+.clear-btn{
+    padding: 6px 10px;
+    margin-top: 4%;
+    display: block;
+    margin-right: 3px;
+    margin-left: auto;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.clear-btn:hover{
+    background-color: #cc0000;
+    color: white;
+    transition: 0.5s;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #455a64; /* Adjust as needed */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.task-text {
+    max-width: 50%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+}
+
+.task-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: auto;
+}
+
+/* Adjust button styles if needed */
+.add-cmpt1, .add-cmpt2 {
+    white-space: nowrap;
+}
