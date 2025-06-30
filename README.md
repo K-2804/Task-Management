@@ -17,7 +17,7 @@ A simple and interactive web-based productivity app that helps users create, man
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/<your-username>/task-management-system.git
+git clone https://github.com/K-2804/Task-Management.git
 cd frontend
 npm install
 npm start
