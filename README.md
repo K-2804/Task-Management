@@ -3,8 +3,9 @@
 A simple and interactive web-based productivity app that helps users create, manage, and complete tasks efficiently.
 
 ## 🔧 Tech Stack
-- ReactJS (Frontend)
-- Java (Backend)
+- React
+- JavaScript
+- CSS
 
 ## 🌟 Features
 - ➕ Add new tasks
