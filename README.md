@@ -13,8 +13,6 @@ A web-based queue token system for managing live token numbers efficiently — i
 - 📱 Responsive interface for display screens
 - 🧩 Simple and clean UI for public environments
 
-## 📸 Screenshots
-
 ## 📌 Use Case Examples
 - Hospital or clinic queue screens
 - Customer care centers
