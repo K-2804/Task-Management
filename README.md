@@ -15,6 +15,10 @@ A web-based queue token system for managing live token numbers efficiently — i
 
 ## 📸 Screenshots
 
+## 📌 Use Case Examples
+- Hospital or clinic queue screens
+- Customer care centers
+- Token counters in banks
 
 ## 🚀 How to Run Locally
 ```bash
