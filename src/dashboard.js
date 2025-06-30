@@ -60,8 +60,8 @@ const Dashboard = () => {
                  ))
            ) : (
          <li className="no-task">No tasks available</li>
-  )}
-</ul>
+          )}
+        </ul>
         </div>
 
         {/* Right Box - Completed Tasks */}
