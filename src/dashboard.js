@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useLocation, Link } from 'react-router-dom';
 import "./dashboard.css";
 
 const Dashboard = () => {
+  const location = useLocation();
+  const email = location.state?.email || 'Guest';
+  const username = email.split('@')[0];
   const [tasks, setTasks] = useState([]);
   const [completedTasks, setCompletedTasks] = useState([]);
   const [taskInput, setTaskInput] = useState("");
@@ -31,6 +34,7 @@ const Dashboard = () => {
     <div className="dashboard-container">
       {/* Header Section */}
       <div className="header">
+        <h2 className="welcome-text">Welcome, {username}!</h2>
         <h1 className="title">TASK DASHBOARD</h1>
         <div className="logout-container"><Link to="/" className="logout-btn">Logout</Link></div>
       </div>

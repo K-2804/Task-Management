@@ -12,6 +12,7 @@ function Login() {
     e.preventDefault();
     alert(`Logged in with Email: ${email}`);
      navigate('/dashboard');
+     navigate('/dashboard', { state: { email } });
   };
 
   return (

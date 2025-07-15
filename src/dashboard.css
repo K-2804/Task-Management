@@ -26,25 +26,46 @@
 /* Header with title and logout button */
 .header {
     display: flex;
-    justify-content: space-between; /* Space between title & logout button */
-    align-items: center; /* Align items in the center */
+    justify-content: center; /* center the heading */
+    align-items: center;
     padding: 10px;
     top: -90px;
     position: fixed;
+    width: 100%;
 }
 
-/* Title */
+/* Welcome text to left */
+.welcome-text {
+  position: absolute;
+  left: 90px;
+  top: 135px;
+  font-weight: 500px;
+  color: #e1e7e7;
+  font-size:x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+
+.welcome-text:hover{
+  background: #20b0ee51;
+  box-shadow: 0px 0px 40px #20b0ee;
+}
+
+/* Title stays centered */
 .title {
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     margin: 0;
     line-height: 6;
-
+    text-align: center;
 }
-.logout-container{
+
+/* Logout button stays at top right */
+.logout-container {
     position: absolute;
-    right: -370px;
+    right: 80px;
     top: 143px;
 }
 
@@ -220,3 +241,4 @@
 .add-cmpt1, .add-cmpt2 {
     white-space: nowrap;
 }
+
