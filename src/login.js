@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link for navigation
+import { useNavigate } from 'react-router-dom';
 import "./login.css"; 
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
     alert(`Logged in with Email: ${email}`);
+     navigate('/dashboard');
   };
 
   return (
