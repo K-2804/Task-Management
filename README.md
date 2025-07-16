@@ -25,4 +25,4 @@ npm start
 
 ##Screenshots
 
-![Screenshot](screenshots/Login page.png)
+![Screenshot](screenshots/Loginpage.png)
