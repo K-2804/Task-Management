@@ -21,6 +21,7 @@ git clone https://github.com/K-2804/Task-Management.git
 cd frontend
 npm install
 npm start
+```
 
 ##Screenshots
 ![Screenshot](screenshots/Login page.png)
