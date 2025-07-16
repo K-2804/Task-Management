@@ -25,4 +25,8 @@ npm start
 
 ##Screenshots
 
+### 🔐 Login Page
 ![Screenshot](screenshots/Login%20page.png)
+
+### 🔐 Signup Page
+![Screenshot](screenshots/Signup%20page.png)
