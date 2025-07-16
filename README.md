@@ -30,3 +30,9 @@ npm start
 
 ### 🔐 Signup Page
 ![Screenshot](screenshots/Signup%20page.png)
+
+### 📋 Task Dashboard Page
+![Screenshot](screenshots/Task%20Dashboard.png)
+
+### 📋 Task Page
+![Screenshot](screenshots/Task.png)
